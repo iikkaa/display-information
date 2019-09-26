@@ -159,36 +159,38 @@ function format_indo($date){
 			</div>
 		</div>
 
-		<table border="1">
-			<tr>
-				<td>
-					<div class="container shadow">
-						<div class="slideshow_wrapper">
-							<div class="slideshow">
-						    	<div class="slide slide">
-						        	<img src="foto/contoh.png" />
-						    	</div>
-						    	<div class="slide slide">
-						        	<img src="foto/contoh.png" />
-						    	</div>
-						    	<div class="slide slide">
-						        	<img src="foto/contoh.png" />
-						    	</div>
-						    	<div class="slide slide">
-						        	<img src="foto/contoh.png" />
-						    	</div>
-						    	<div class="slide slide">
-						        	<img src="foto/contoh.png" />
-						    	</div>
-						    	<div class="slide slide">
-						        	<img src="foto/contoh.png" />
-						    	</div>
-    						</div>
-    					</div>
-    				</div>
-				</td>
-			</tr>
-		</table>
+		<div class="home-slideshow">
+			<table border="1">
+				<tr>
+					<td>
+						<div class="container shadow">
+							<div class="slideshow_wrapper">
+								<div class="slideshow">
+							    	<div class="slide slide">
+							        	<img src="foto/contoh.png" />
+							    	</div>
+							    	<div class="slide slide">
+							        	<img src="foto/contoh.png" />
+							    	</div>
+							    	<div class="slide slide">
+							        	<img src="foto/contoh.png" />
+							    	</div>
+							    	<div class="slide slide">
+							        	<img src="foto/contoh.png" />
+							    	</div>
+							    	<div class="slide slide">
+							        	<img src="foto/contoh.png" />
+							    	</div>
+							    	<div class="slide slide">
+							        	<img src="foto/contoh.png" />
+							    	</div>
+	    						</div>
+	    					</div>
+	    				</div>
+					</td>
+				</tr>
+			</table>
+		</div>
 	</div>
 	<!-- end-home-body -->
 
