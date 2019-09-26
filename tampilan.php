@@ -32,9 +32,9 @@ function format_indo($date){
 	<div class="home-heading-lembaga">
 
     <?php
-	$sql = "SELECT * FROM pelatihan WHERE tgl_mulai between pelatihan.tgl_mulai='$tgl' and pelatihan.tgl_selesai='$tgl'   and pelatihan.kd_ruangan='a2' ";
-	$query = mysqli_query ($conn, $sql);
 
+	$sql = "SELECT * FROM pelatihan WHERE (pelatihan.tgl_mulai <= '$tgl' and pelatihan.tgl_selesai >= '$tgl') and pelatihan.kd_ruangan='a2' ";
+	$query = mysqli_query ($conn, $sql);
  	while($data = mysqli_fetch_array ($query)) {
  	?>
 
